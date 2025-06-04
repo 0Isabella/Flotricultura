@@ -15,7 +15,6 @@ public class InputHelper {
                 num = Integer.parseInt(scanner.nextLine());
             } catch (Exception e) {
                 erro = true;
-                //System.out.println(e);
                 System.out.println("\u001B[31mApenas digite números inteiros\u001B[0m");
             }
         } while (erro);
@@ -33,7 +32,6 @@ public class InputHelper {
 
             } catch (Exception e){
                 erro = true;
-                //System.out.println(e);
                 System.out.println("\u001B[31mApenas digite números válidos\u001B[0m");
             }
         } while (erro);
