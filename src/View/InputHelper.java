@@ -60,6 +60,9 @@ public class InputHelper {
         String txt = scanner.nextLine();
         return txt;
     }
+    public void InputText(String a) {
+        System.out.println(a);
+    }
 
     public static boolean pegarBoolean(String mensagem) {
         while (true) {
